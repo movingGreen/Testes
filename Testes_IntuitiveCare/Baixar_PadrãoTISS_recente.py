@@ -17,10 +17,10 @@ objeto_html_pg2 = BeautifulSoup(html_pg2, 'lxml')
 html_link_pdf = objeto_html_pg2.find('a', class_ ='btn btn-primary btn-sm center-block internal-link')
 link_pdf = str(html_link_pdf['href'])
 
-
+#Faz o download do pdf e salva ele com o nome que está na url
 dados_pdf = requests.get(link_pdf, allow_redirects=True)
 if link_pdf.find('/'): nome_pdf = link_pdf.rsplit('/', 1)[1]
-
-open(nome_pdf, 'wb').write(dados_pdf.content)
+with open(nome_pdf, 'wb') as pdf:
+    pdf.write(dados_pdf.content)
 
 print(f'O pdf do Padrão TISS mais recente é: {nome_pdf}')
