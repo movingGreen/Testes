@@ -1,0 +1,10 @@
+1 - acessar esse link 
+https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.br%2Fans%2Fpt-br%2Fassuntos%2Fprestadores%2Fpadrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss&data=04%7C01%7C%7C785f5940c9d74ab126d508d9b8d8befe%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637744063324076936%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=gTpHt1INi%2FI6J8X31h6f7B%2FKCiwNO8hjC64n1V41gRw%3D&reserved=0
+
+2 - olhar na <div id= "parent-fieldname-text">
+
+3 - mostrar o texto do primeiro <h2>
+
+4 - mostrar o texto do primeiro link e clicar no link
+
+5 - mostrar os dados da primeira linha da tabela e baixar o pdf  no link
