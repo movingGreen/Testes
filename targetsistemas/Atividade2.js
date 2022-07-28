@@ -4,10 +4,15 @@ function isInFibonnaci(numero) {
     return (numero in Fibonnaci(numero)) ? true : false; 
 }
 
-function Fibonnaci(valorMaximo) {
-    
+function calcularFibonnaci(valorMaximo) {
+    let arrayFibonnaci = [0, 1];
 
-    return listaFibonnaci;
+    for (let i = 2; i < valorMaximo.length; i++) {
+        const element = valorMaximo[i];
+        
+    }
+
+    return arrayFibonnaci;
 }
 
 console.log(entrada);
