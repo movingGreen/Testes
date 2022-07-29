@@ -1,0 +1,5 @@
+faturamentoDiario = [];
+
+function name(params) {
+    
+}
